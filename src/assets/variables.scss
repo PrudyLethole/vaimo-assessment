@@ -1,0 +1,246 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+
+$primary_1: #FF6600;
+$primary_2: #FFCEBD;
+
+.img {
+    margin-left: auto;
+    
+}
+img.resize{
+    width: 416px;
+    height: 416px;
+
+}
+.input {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+  width: 80px;
+  height: 40px;
+}
+.button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 40px;
+  height: 40px;
+}
+.logo {
+  width: 76px;
+  height: 40px;
+}
+.off {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+.free-shipping-up {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+.foreground {
+  background-color: #FFF0E6;
+  width: 526px;
+  height: 40px;
+}
+.r-98-12-r-1-119-14 {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+.min-order {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+.options {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+.option {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+.info {
+padding-left: 512px;
+padding-right: 402px;
+padding-bottom: 100px;
+padding-top: 42px;
+}
+.protects-your-alibab {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+.gps {
+    color: #333333;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    width: 526px;
+    text-align: left;
+  }
+  .product {
+    color: #333333;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    width: 174px;
+    text-align: left;
+  }
+  .r-78-50-r-895-31 {
+    color: #FF6600;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .buyers {
+    color: #333333;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .reviews {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+ 
+  .readytoship {
+    background-image: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+    border-radius: 2px 0 0 2px;
+    width: 90px;
+    height: 20px;
+    margin-left: auto;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  
+
+  }
+  .instock {
+    background-color: #FFF0E6;
+  width: 75px;
+  height: 20px;
+    color: #FF6600;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .label {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .rev {
+    color: #FF6600;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .blue-column {
+   
+    height: 100px;
+  }
+  
+  .green-column {
+
+    height: 100px;
+  }
+  .orange-column {
+
+    height: 100px;
+  }
+  
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .ship-to-south-africa {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .login-label {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    width: 210px;
+    text-align: center;
+    background-color: #FF6600;
+    border-radius: 20px;
+    width: 258px;
+    height: 40px;
+  }
+  .contact {
+    color: #FF6600;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #FF6600;
+    border-radius: 20px;
+    width: 258px;
+    height: 40px;
+  }
+ 
